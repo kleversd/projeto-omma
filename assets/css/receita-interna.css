@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #ffc107;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+  height: 48px;
+  background-color: #FFA000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > a {
+  color: #FDFDFD;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  margin: 0px 28px;
+}
+
+#risoto {
+    padding: 50px 0; 
+    /* padding: top-bottom left-right */
+    text-align: left;
+  }
+  
+  
+  #risoto h2 {
+    color: #FFA000;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 30px;
+    text-align: left;
+  }
+  
+  #risoto a {
+  box-decoration-break: border-box;
+  font-size: 26px;
+  font-weight: 500px;
+  margin: 10px 0;
+  text-align: right;
+  text-decoration: none; /* tira o sublinhado do link */
+  }
+  
+  #risoto a {
+    box-decoration-break: border-box;
+    background-color: #fff;
+    color: #176902;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block; /* pro margin funcionar */
+    font-size: 18px;
+    width: 24px;
+    height: 17px;
+    font-weight: 200px;
+    text-decoration: none; /* tira o sublinhado do link */
+}
+
+#risoto p {
+ 
+  width: 592px;
+  height: 25px;
+  left: 128px;
+  top: 86px;
+  
+  font-family: 'Montserrat';
+  font-style: impact;
+  font-weight: 1500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: sub;
+  
+  color: #000000;
+
+}
+#risoto h3 {
+  font-family: 'Montserrat';
+  font-style: impact;
+  font-weight: 1500;
+  font-size: 26px;
+  font-weight: 600px;
+  margin: 10px 0;
+
+  color: #000000;
+}
+
+  
+

@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #ffc107;
+  height: 117px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+  height: 48px;
+  background-color: #FFA000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav > a {
+  color: #FDFDFD;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: lowercase;
+  margin: 0px 28px;
+}
+
+
+  #hero-header {
+    background: linear-gradient(
+    0deg,
+     rgba(255, 160, 0, 0.3),
+     rgba(255, 160, 0, 0.3)
+     ),
+     url(../images/hero-image-section-header.png);
+    height: 638px;
+}
+
+
+#hero-header h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  float: right;
+  margin: 150px 150px 50px 50px;  
+  /* margin: top right bottom left; */
+}
+
+
+#receitas-da-semana {
+  padding: 100px 0; 
+  /* padding: top-bottom left-right */
+  text-align: center;
+}
+
+
+#receitas-da-semana h2 {
+  color: #FFA000;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+#receitas-da-semana article {
+  display: inline-block; /* para ficar um ao lado do outro */
+  padding: 30px;
+}
+
+#receitas-da-semana h3{
+font-size: 26px;
+font-weight: 600px;
+margin: 10px 0;
+}
+
+#receitas-da-semana a {
+background-color: #176902;
+color: #fff;
+padding: 10px 20px;
+margin: 20px 0;
+display: inline-block; /* pro margin funcionar */
+font-size: 24px;
+font-weight: 600px;
+text-decoration: none; /* tira o sublinhado do link */
+}
+
+#hero-footer {
+  background: linear-gradient(
+  0deg,
+   rgba(255, 160, 0, 0.3),
+   rgba(255, 160, 0, 0.3)
+   ),
+   url(../images/footer-image.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  height: 772px;
+  color :#fff;
+  padding: 150px;
+}
+
+#hero-footer h2 {
+  font-size: 65px;
+  font-weight: 700px;
+  margin: 30px 0;
+}
+
+#hero-footer p {
+  font-size: 24px;
+  font-weight: 500;
+  width: 450px;
+  margin: 15px 0;
+}
+
+footer {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 30px;
+}
+
+footer img {
+  vertical-align: middle;
+}
