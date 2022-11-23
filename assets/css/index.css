@@ -79,16 +79,18 @@ nav > a {
 }
 
 
-  #hero-header {
-    background: linear-gradient(
+#hero-header {
+  background: linear-gradient(
     0deg,
-     rgba(255, 160, 0, 0.3),
-     rgba(255, 160, 0, 0.3)
-     ),
-     url(../images/hero-image-section-header.png);
-    height: 638px;
+    rgba(255, 160, 0, 0.3),
+    rgba(255, 160, 0, 0.3)
+  ),
+  url(../images/hero-image-section-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 638px;
 }
-
 
 #hero-header h2 {
   color: #fff;
@@ -96,23 +98,21 @@ nav > a {
   font-weight: 700;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
   float: right;
-  margin: 150px 150px 50px 50px;  
+  margin: 150px 200px 50px 50px;
   /* margin: top right bottom left; */
 }
 
-
 #receitas-da-semana {
-  padding: 100px 0; 
+  padding: 100px 0;
   /* padding: top-bottom left-right */
   text-align: center;
 }
-
 
 #receitas-da-semana h2 {
   color: #FFA000;
   font-size: 55px;
   font-weight: 700;
-  margin: 30px;
+  margin-bottom: 50px;
 }
 
 #receitas-da-semana article {
@@ -120,41 +120,41 @@ nav > a {
   padding: 30px;
 }
 
-#receitas-da-semana h3{
-font-size: 26px;
-font-weight: 600px;
-margin: 10px 0;
+#receitas-da-semana h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 10px 0;
 }
 
 #receitas-da-semana a {
-background-color: #176902;
-color: #fff;
-padding: 10px 20px;
-margin: 20px 0;
-display: inline-block; /* pro margin funcionar */
-font-size: 24px;
-font-weight: 600px;
-text-decoration: none; /* tira o sublinhado do link */
+  background-color: #176902;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  display: inline-block; /* pro margin funcionar */
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none; /* tira o sublinhado do link */
 }
 
 #hero-footer {
   background: linear-gradient(
-  0deg,
-   rgba(255, 160, 0, 0.3),
-   rgba(255, 160, 0, 0.3)
-   ),
-   url(../images/footer-image.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+      0deg,
+      rgba(255, 160, 0, 0.3),
+      rgba(255, 160, 0, 0.3)
+    ),
+    url(../images/footer-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 772px;
-  color :#fff;
+  color: #fff;
   padding: 150px;
 }
 
 #hero-footer h2 {
   font-size: 65px;
-  font-weight: 700px;
+  font-weight: 700;
   margin: 30px 0;
 }
 
@@ -165,8 +165,202 @@ text-decoration: none; /* tira o sublinhado do link */
   margin: 15px 0;
 }
 
+#main-internal {
+  margin-top: 107px;
+  padding: 0 120px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-internal article {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#tags {
+  margin-bottom: 58px;
+}
+
+#tags span {
+  color: #176902;
+  font-size: 18px;
+  border: 1px solid #176902;
+  padding: 7px 25px;
+  border-radius: 47px;
+  margin-right: 19px;
+}
+
+#main-internal article h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFA000;
+  margin-bottom: 28px;
+}
+
+#main-internal article img {
+  margin-bottom: 25px;
+}
+
+#main-internal article p {
+  max-width: 590px;
+}
+
+#main-internal article p strong {
+  font-weight: bold;
+}
+
+#main-internal article iframe {
+  margin-top: 37px;
+  margin-bottom: 35px;
+}
+
+#receitas-relacionadas {
+  padding-top: 71px;
+}
+
+#receitas-relacionadas h2 {
+  color: #FFA000;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+
+#receitas-relacionadas article {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+#receitas-relacionadas article img {
+  margin-bottom: 12px;
+}
+
+#receitas-relacionadas article h3 {
+  font-size: 26px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#receitas-relacionadas a {
+  text-decoration: none;
+}
+
+#contato {
+  margin: 97px 127px 133px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contato form {
+  flex-grow: 2;
+  margin-left: 15px;
+  border: 1px solid #FFA000;
+  border-radius: 20px;
+  padding: 66px 33px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contato form h2 {
+  color: #FFC107;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 67px;
+}
+
+#contato form input,
+#contato form textarea {
+  border: 1px solid #FFA000;
+  color: #58555D;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 7px 34px;
+  margin-bottom: 23px;
+}
+
+#contato form textarea {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  margin-bottom: 16px;
+}
+
+#contato form input::placeholder,
+#contato form textarea::placeholder {
+  color: #58555D;
+}
+
+#contato form input:focus,
+#contato form textarea:focus {
+  outline: none;
+}
+
+#contato form button {
+  width: 165px;
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+  background: #FFC107;
+  border-radius: 50px;
+  border: none;
+  padding: 12px;
+}
+
+#cabecalho {
+  background-image: url('../images/contato-header.jpg');
+  padding: 49px 122px 186px;
+}
+
+#cabecalho h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  text-transform: lowercase;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  max-width: 419px;
+}
+
+#todas-as-receitas {
+  padding: 100px 0;
+  /* padding: top-bottom left-right */
+  text-align: center;
+}
+
+#todas-as-receitas h2 {
+  color: #FFA000;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+#todas-as-receitas article {
+  display: inline-block; /* para ficar um ao lado do outro */
+  padding: 30px;
+}
+
+#todas-as-receitas h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+#todas-as-receitas a {
+  background-color: #176902;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  display: inline-block; /* pro margin funcionar */
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none; /* tira o sublinhado do link */
+}
+
 footer {
-  background-color: #ffc107;
+  background-color: #FFC107;
   color: #fff;
   padding: 30px;
 }
@@ -174,3 +368,5 @@ footer {
 footer img {
   vertical-align: middle;
 }
+
+
